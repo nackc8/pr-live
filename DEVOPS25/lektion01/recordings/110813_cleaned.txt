@@ -1,0 +1,28 @@
+Script started on 2025-12-01 11:08:13+01:00 [TERM="xterm-256color" TTY="/dev/pts/3" COLUMNS="66" LINES="22"]
+DEVOPS25/lektion01
+$ 
+DEVOPS25/lektion01
+$ ls
+git  recordings
+DEVOPS25/lektion01
+$ cd git/
+ex
+
+ex1/ ex2/ ex3/ 
+DEVOPS25/lektion01
+$ cd git/ex3/
+$ $ git branch
+* main
+  nicer
+  uppercase
+>$ git branch -d up
+percase
+Deleted branch uppercase (was 934a4ba).
+$ git branch -d uppercas
+* main
+  nicer
+>$ git branch -d uppercas
+$ 
+exit
+
+Script done on 2025-12-01 12:19:22+01:00 [COMMAND_EXIT_CODE="0"]

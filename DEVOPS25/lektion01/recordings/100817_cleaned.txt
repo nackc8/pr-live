@@ -1,0 +1,1148 @@
+Script started on 2025-12-01 10:08:17+01:00 [TERM="xterm-256color" TTY="/dev/pts/3" COLUMNS="61" LINES="14"]
+DEVOPS25/lektion01
+$ DEVOPS25/lektion01
+$ ls
+git  recordings
+DEVOPS25/lektion01
+$ cd git/
+DEVOPS25/lektion01/git
+$ DEVOPS25/lektion01/git
+$ ls
+ex1
+DEVOPS25/lektion01/git
+$ cd ex1/
+$ $ ls
+djur.txt
+$ $ ls
+djur.txt
+$ git log
+commit c5f9f677b7b0f986d0808356530f49dca6d2bfcc (HEAD -> main)
+Author: Kent Larsson <kent.larsson@gmail.com>
+Date:   Mon Dec 1 10:02:06 2025 +0100
+
+    chore: add initial animals file
+>$ $ nacode djur.txt
+
+
+
+
+
+
+
+
+
+$ git add .
+$ $ gut cigit status
+On branch main
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	modified:   djur.txt
+
+$ $ git status
+On branch main
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	modified:   djur.txt
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   djur.txt
+
+$ git diff
+diff --git a/djur.txt b/djur.txt
+index f3fbf85..692c0d3 100644
+--- a/djur.txt
++++ b/djur.txt
+@@ -5,3 +5,4 @@ brunbjörn
+ älg
+ räv
+ varg
++lodjur
+>$ $ igit status
+On branch main
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	modified:   djur.txt
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   djur.txt
+
+$ git add .$ git add .
+$ git status
+On branch main
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	modified:   djur.txt
+
+$ $ git commit -m ;;'
+
+
+
+
+
+
+
+
+
+
+
+
+
+feat>: added  more animals
+[main 76e4e38] feat: add more animals
+ 1 file changed, 5 insertions(+), 1 deletion(-)
+$ git lgog$ git log
+commit 76e4e38103e13957a6fb1ffbcc89e39905a89a75 (HEAD -> main)
+Author: Kent Larsson <kent.larsson@gmail.com>
+Date:   Mon Dec 1 10:23:20 2025 +0100
+
+    feat: add more animals
+
+commit c5f9f677b7b0f986d0808356530f49dca6d2bfcc
+Author: Kent Larsson <kent.larsson@gmail.com>
+Date:   Mon Dec 1 10:02:06 2025 +0100
+
+    chore: add initial animals file
+ ESESCOB
+$ git add .
+$ $ git commit
+[main 4c45924] feat: add tiger to animal listSG [ Writing... ] [ Wrote 8 lines ]ignored, and an empty message aborts the >#*MMIT_EDITMSG        
+ 1 file changed, 1 insertion(+)
+$ $ git log
+commit 4c45924c74efa37b9f45db8e37c851eaa3865ead (HEAD -> main)
+Author: Kent Larsson <kent.larsson@gmail.com>
+Date:   Mon Dec 1 10:24:18 2025 +0100
+
+    feat: add tiger to animal list
+
+:...skipping...
+commit 4c45924c74efa37b9f45db8e37c851eaa3865ead (HEAD -> main)
+Author: Kent Larsson <kent.larsson@gmail.com>
+Date:   Mon Dec 1 10:24:18 2025 +0100
+
+    feat: add tiger to animal list
+
+commit 76e4e38103e13957a6fb1ffbcc89e39905a89a75
+:...skipping...
+commit 4c45924c74efa37b9f45db8e37c851eaa3865ead (HEAD -> main)
+Author: Kent Larsson <kent.larsson@gmail.com>
+Date:   Mon Dec 1 10:24:18 2025 +0100
+
+    feat: add tiger to animal list
+
+commit 76e4e38103e13957a6fb1ffbcc89e39905a89a75
+Author: Kent Larsson <kent.larsson@gmail.com>
+:...skipping...
+commit 4c45924c74efa37b9f45db8e37c851eaa3865ead (HEAD -> main)
+Author: Kent Larsson <kent.larsson@gmail.com>
+Date:   Mon Dec 1 10:24:18 2025 +0100
+
+    feat: add tiger to animal list
+
+commit 76e4e38103e13957a6fb1ffbcc89e39905a89a75
+Author: Kent Larsson <kent.larsson@gmail.com>
+Date:   Mon Dec 1 10:23:20 2025 +0100
+:...skipping...
+commit 4c45924c74efa37b9f45db8e37c851eaa3865ead (HEAD -> main)
+Author: Kent Larsson <kent.larsson@gmail.com>
+Date:   Mon Dec 1 10:24:18 2025 +0100
+
+    feat: add tiger to animal list
+
+commit 76e4e38103e13957a6fb1ffbcc89e39905a89a75
+Author: Kent Larsson <kent.larsson@gmail.com>
+Date:   Mon Dec 1 10:23:20 2025 +0100
+
+:...skipping...
+commit 4c45924c74efa37b9f45db8e37c851eaa3865ead (HEAD -> main)
+Author: Kent Larsson <kent.larsson@gmail.com>
+Date:   Mon Dec 1 10:24:18 2025 +0100
+
+    feat: add tiger to animal list
+
+commit 76e4e38103e13957a6fb1ffbcc89e39905a89a75
+Author: Kent Larsson <kent.larsson@gmail.com>
+Date:   Mon Dec 1 10:23:20 2025 +0100
+
+    feat: add more animals
+:...skipping...
+commit 4c45924c74efa37b9f45db8e37c851eaa3865ead (HEAD -> main)
+Author: Kent Larsson <kent.larsson@gmail.com>
+Date:   Mon Dec 1 10:24:18 2025 +0100
+
+    feat: add tiger to animal list
+
+commit 76e4e38103e13957a6fb1ffbcc89e39905a89a75
+Author: Kent Larsson <kent.larsson@gmail.com>
+Date:   Mon Dec 1 10:23:20 2025 +0100
+
+    feat: add more animals
+
+commit c5f9f677b7b0f986d0808356530f49dca6d2bfcc
+Author: Kent Larsson <kent.larsson@gmail.com>
+Date:   Mon Dec 1 10:02:06 2025 +0100
+ ESESCOB
+    chore: add initial animals file
+ ESESCOB
+ ESESCOB
+>$ D)
+$ 
+
+
+$ pwd
+/shared/kent/Documents/nackademin/projektmetodiker/pr-live/DEVOPS25/lektion01/git/ex1
+$ ls
+djur.txt
+$ $ gi
+$ git status
+On branch main
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   djur.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ $ git diff
+diff --git a/djur.txt b/djur.txt
+index aa9c213..692c0d3 100644
+--- a/djur.txt
++++ b/djur.txt
+@@ -6,4 +6,3 @@ brunbjörn
+ räv
+ varg
+ lodjur
+-tiger
+ ESESCOB
+>$ git diff$ git diff
+diff --git a/djur.txt b/djur.txt
+index aa9c213..6be69f8 100644
+--- a/djur.txt
++++ b/djur.txt
+@@ -6,4 +6,4 @@ brunbjörn
+ räv
+ varg
+ lodjur
+-tiger
++örnCOB
+ ESESCOB
+ ESESCOB
+>$ $ git add djur.txt 
+$ git commit
+[main 176a08c] fix: remove broken tiger, use eagleWriting... ] [ Wrote 8 lines ]ignored, and an empty message aborts the >## On branch main     
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+$ git log$ git log
+commit 176a08c6f89cd8ed10e4c4e3feac71a098f3b158 (HEAD -> main)
+Author: Kent Larsson <kent.larsson@gmail.com>
+Date:   Mon Dec 1 10:27:42 2025 +0100
+
+    fix: remove broken tiger, use eagle
+
+commit 4c45924c74efa37b9f45db8e37c851eaa3865ead
+Author: Kent Larsson <kent.larsson@gmail.com>
+Date:   Mon Dec 1 10:24:18 2025 +0100
+
+    feat: add tiger to animal list
+
+commit 76e4e38103e13957a6fb1ffbcc89e39905a89a75
+Author: Kent Larsson <kent.larsson@gmail.com>
+Date:   Mon Dec 1 10:23:20 2025 +0100
+
+    feat: add more animals
+:
+commit c5f9f677b7b0f986d0808356530f49dca6d2bfcc
+Author: Kent Larsson <kent.larsson@gmail.com>
+Date:   Mon Dec 1 10:02:06 2025 +0100
+
+    chore: add initial animals file
+(END)
+>$ D)
+
+$ git status
+On branch main
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   djur.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git diff$ git diff
+diff --git a/djur.txt b/djur.txt
+index 6be69f8..afccc5a 100644
+--- a/djur.txt
++++ b/djur.txt
+@@ -2,7 +2,6 @@ apa
+ groda
+ huggorm
+ brunbjörn
+-älg
+ rävCOB
+ vargCOB
+ lodjurB
+ ESESCOB
+>$ $ git log
+commit 176a08c6f89cd8ed10e4c4e3feac71a098f3b158 (HEAD -> main)
+Author: Kent Larsson <kent.larsson@gmail.com>
+Date:   Mon Dec 1 10:27:42 2025 +0100
+
+    fix: remove broken tiger, use eagle
+
+commit 4c45924c74efa37b9f45db8e37c851eaa3865ead
+Author: Kent Larsson <kent.larsson@gmail.com>
+>$ $ git commi
+
+
+git status
+On branch main
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   djur.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git add .
+$ $ git status
+On branch main
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	modified:   djur.txt
+
+$ $ git commit --amend --no-edi
+[main c172cb3] fix: remove broken tiger and moose, use eagle ] [ Wrote 11 lines ]use eagle use eagley message aborts the >## Date:      Mon Dec 1 10:27:42 2025 +0100
+ Date: Mon Dec 1 10:27:42 2025 +0100
+ 1 file changed, 1 insertion(+), 2 deletions(-)
+$ $ git log
+commit c172cb374a20995b8738e5b9ad99de2cb5bd1996 (HEAD -> main)
+Author: Kent Larsson <kent.larsson@gmail.com>
+Date:   Mon Dec 1 10:27:42 2025 +0100
+
+    fix: remove broken tiger and moose, use eagle
+
+commit 4c45924c74efa37b9f45db8e37c851eaa3865ead
+Author: Kent Larsson <kent.larsson@gmail.com>
+>$ git revert c172$ git revert c172
+[main bd2042c] Revert "fix: remove broken tiger and moose, use eagle" enter the commit message for your changes. Lines st># with '#' will be ignored, and an empty message aborts the >This reverts comm
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+$ $ git log
+commit bd2042cef943bad89e8a013016b4272580cfa756 (HEAD -> main)
+Author: Kent Larsson <kent.larsson@gmail.com>
+Date:   Mon Dec 1 10:33:42 2025 +0100
+
+    Revert "fix: remove broken tiger and moose, use eagle"
+    
+    This reverts commit c172cb374a20995b8738e5b9ad99de2cb5bd1996.
+>$ $ git log
+commit bd2042cef943bad89e8a013016b4272580cfa756 (HEAD -> main)
+Author: Kent Larsson <kent.larsson@gmail.com>
+Date:   Mon Dec 1 10:33:42 2025 +0100
+
+    Revert "fix: remove broken tiger and moose, use eagle"
+    
+    This reverts commit c172cb374a20995b8738e5b9ad99de2cb5bd1996.
+>$ git add 
+
+
+
+$ ls
+djur.txt
+$ cd ..
+DEVOPS25/lektion01/git
+$ DEVOPS25/lektion01/git
+$ ls
+ex1
+DEVOPS25/lektion01/git
+$ cp -r ex1/ ex12
+DEVOPS25/lektion01/git
+$ cd ex
+2/
+$ $ git log
+commit bd2042cef943bad89e8a013016b4272580cfa756 (HEAD -> main)
+Author: Kent Larsson <kent.larsson@gmail.com>
+Date:   Mon Dec 1 10:33:42 2025 +0100
+
+    Revert "fix: remove broken tiger and moose, use eagle"
+    
+    This reverts commit c172cb374a20995b8738e5b9ad99de2cb5bd1996.
+ ESESCOA
+ ESESCOA
+ ESESCOB
+commit c172cb374a20995b8738e5b9ad99de2cb5bd1996
+Author: Kent Larsson <kent.larsson@gmail.com>
+Date:   Mon Dec 1 10:27:42 2025 +0100
+ ESESCOB
+    fix: remove broken tiger and moose, use eagle
+ ESESCOB
+commit 4c45924c74efa37b9f45db8e37c851eaa3865ead
+Author: Kent Larsson <kent.larsson@gmail.com>
+Date:   Mon Dec 1 10:24:18 2025 +0100
+ ESESCOB
+    feat: add tiger to animal list
+ ESESCOB
+commit 76e4e38103e13957a6fb1ffbcc89e39905a89a75
+Author: Kent Larsson <kent.larsson@gmail.com>
+Date:   Mon Dec 1 10:23:20 2025 +0100
+ ESESCOB
+Mcommit 4c45924c74efa37b9f45db8e37c851eaa3865ead
+MESESCOA
+M    fix: remove broken tiger and moose, use eagle
+MESESCOA
+MDate:   Mon Dec 1 10:27:42 2025 +0100
+MAuthor: Kent Larsson <kent.larsson@gmail.com>
+Mcommit c172cb374a20995b8738e5b9ad99de2cb5bd1996
+MESESCOA
+M996.COA
+M    COAs reverts commit c172cb374a20995b8738e5b9ad99de2cb5bd1
+M    Revert "fix: remove broken tiger and moose, use eagle"
+MESESCOA
+MDate:   Mon Dec 1 10:33:42 2025 +0100
+MAuthor: Kent Larsson <kent.larsson@gmail.com>
+M)SESCOA
+ ESESCOAbd2042cef943bad89e8a013016b4272580cfa756 (HEAD -> main
+:ESESCOA
+commit c172cb374a20995b8738e5b9ad99de2cb5bd1996
+Author: Kent Larsson <kent.larsson@gmail.com>
+Date:   Mon Dec 1 10:27:42 2025 +0100
+
+    fix: remove broken tiger and moose, use eagle
+
+commit 4c45924c74efa37b9f45db8e37c851eaa3865ead
+Author: Kent Larsson <kent.larsson@gmail.com>
+$ git log
+commit bd2042cef943bad89e8a013016b4272580cfa756 (HEAD -> main)
+Author: Kent Larsson <kent.larsson@gmail.com>
+Date:   Mon Dec 1 10:33:42 2025 +0100
+
+    Revert "fix: remove broken tiger and moose, use eagle"
+    
+    This reverts commit c172cb374a20995b8738e5b9ad99de2cb5bd1996.
+
+commit c172cb374a20995b8738e5b9ad99de2cb5bd1996
+Author: Kent Larsson <kent.larsson@gmail.com>
+Date:   Mon Dec 1 10:27:42 2025 +0100
+:commit bd2042cef943bad89e8a013016b4272580cfa756 (HEAD -> main)
+Author: Kent Larsson <kent.larsson@gmail.com>
+Date:   Mon Dec 1 10:33:42 2025 +0100
+
+    Revert "fix: remove broken tiger and moose, use eagle"
+    
+    This reverts commit c172cb374a20995b8738e5b9ad99de2cb5bd1996.
+
+commit c172cb374a20995b8738e5b9ad99de2cb5bd1996
+Author: Kent Larsson <kent.larsson@gmail.com>
+Date:   Mon Dec 1 10:27:42 2025 +0100
+
+    fix: remove broken tiger and moose, use eagle
+ ESESCOB
+ ESESCODAuthor: Kent Larsson <kent.larsson@gmail.com>
+Date:   Mon Dec 1 10:33:42 2025 +0100
+
+    Revert "fix: remove broken tiger and moose, use eagle"
+    
+    This reverts commit c172cb374a20995b8738e5b9ad99de2cb5bd1996.
+
+commit c172cb374a20995b8738e5b9ad99de2cb5bd1996
+Author: Kent Larsson <kent.larsson@gmail.com>
+Date:   Mon Dec 1 10:27:42 2025 +0100
+
+    fix: remove broken tiger and moose, use eagle
+
+commit 4c45924c74efa37b9f45db8e37c851eaa3865ead
+Author: Kent Larsson <kent.larsson@gmail.com>
+Date:   Mon Dec 1 10:24:18 2025 +0100
+ ESESCOB
+    feat: add tiger to animal list
+ ESESCOB
+commit 76e4e38103e13957a6fb1ffbcc89e39905a89a75
+Author: Kent Larsson <kent.larsson@gmail.com>
+Date:   Mon Dec 1 10:23:20 2025 +0100
+ ESESCOB
+    feat: add more animals
+ ESESCOB
+commit c5f9f677b7b0f986d0808356530f49dca6d2bfcc
+Author: Kent Larsson <kent.larsson@gmail.com>
+Date:   Mon Dec 1 10:02:06 2025 +0100
+ ESESCOB
+    chore: add initial animals file
+ ESESCOB
+MESESCOA
+MDate:   Mon Dec 1 10:24:18 2025 +0100
+MAuthor: Kent Larsson <kent.larsson@gmail.com>
+Mcommit 4c45924c74efa37b9f45db8e37c851eaa3865ead
+MESESCOA
+M    fix: remove broken tiger and moose, use eagle
+MESESCOA
+MDate:   Mon Dec 1 10:27:42 2025 +0100
+MAuthor: Kent Larsson <kent.larsson@gmail.com>
+Mcommit c172cb374a20995b8738e5b9ad99de2cb5bd1996
+MESESCOA
+M    This reverts commit c172cb374a20995b8738e5b9ad99de2cb5bd1996.
+M    COA
+>$ git rebase -i $ git rebase -i HEAD�~
+git log
+commit bd2042cef943bad89e8a013016b4272580cfa756 (HEAD -> main)
+Author: Kent Larsson <kent.larsson@gmail.com>
+Date:   Mon Dec 1 10:33:42 2025 +0100
+
+    Revert "fix: remove broken tiger and moose, use eagle"
+    
+    This reverts commit c172cb374a20995b8738e5b9ad99de2cb5bd1996.
+
+commit c172cb374a20995b8738e5b9ad99de2cb5bd1996
+Author: Kent Larsson <kent.larsson@gmail.com>
+Date:   Mon Dec 1 10:27:42 2025 +0100
+
+    fix: remove broken tiger and moose, use eagle
+:...skipping...
+commit bd2042cef943bad89e8a013016b4272580cfa756 (HEAD -> main)
+Author: Kent Larsson <kent.larsson@gmail.com>
+Date:   Mon Dec 1 10:33:42 2025 +0100
+
+    Revert "fix: remove broken tiger and moose, use eagle"
+    
+    This reverts commit c172cb374a20995b8738e5b9ad99de2cb5bd1996.
+
+commit c172cb374a20995b8738e5b9ad99de2cb5bd1996
+Author: Kent Larsson <kent.larsson@gmail.com>
+Date:   Mon Dec 1 10:27:42 2025 +0100
+
+    fix: remove broken tiger and moose, use eagle
+
+:...skipping...
+commit bd2042cef943bad89e8a013016b4272580cfa756 (HEAD -> main)
+Author: Kent Larsson <kent.larsson@gmail.com>
+Date:   Mon Dec 1 10:33:42 2025 +0100
+
+    Revert "fix: remove broken tiger and moose, use eagle"
+    
+    This reverts commit c172cb374a20995b8738e5b9ad99de2cb5bd1996.
+
+commit c172cb374a20995b8738e5b9ad99de2cb5bd1996
+Author: Kent Larsson <kent.larsson@gmail.com>
+Date:   Mon Dec 1 10:27:42 2025 +0100
+
+    fix: remove broken tiger and moose, use eagle
+
+commit 4c45924c74efa37b9f45db8e37c851eaa3865ead
+:...skipping...
+commit bd2042cef943bad89e8a013016b4272580cfa756 (HEAD -> main)
+Author: Kent Larsson <kent.larsson@gmail.com>
+Date:   Mon Dec 1 10:33:42 2025 +0100
+
+    Revert "fix: remove broken tiger and moose, use eagle"
+    
+    This reverts commit c172cb374a20995b8738e5b9ad99de2cb5bd1996.
+
+commit c172cb374a20995b8738e5b9ad99de2cb5bd1996
+Author: Kent Larsson <kent.larsson@gmail.com>
+Date:   Mon Dec 1 10:27:42 2025 +0100
+
+    fix: remove broken tiger and moose, use eagle
+
+commit 4c45924c74efa37b9f45db8e37c851eaa3865ead
+Author: Kent Larsson <kent.larsson@gmail.com>
+:...skipping...
+commit bd2042cef943bad89e8a013016b4272580cfa756 (HEAD -> main)
+Author: Kent Larsson <kent.larsson@gmail.com>
+Date:   Mon Dec 1 10:33:42 2025 +0100
+
+    Revert "fix: remove broken tiger and moose, use eagle"
+    
+    This reverts commit c172cb374a20995b8738e5b9ad99de2cb5bd1996.
+
+commit c172cb374a20995b8738e5b9ad99de2cb5bd1996
+Author: Kent Larsson <kent.larsson@gmail.com>
+Date:   Mon Dec 1 10:27:42 2025 +0100
+
+    fix: remove broken tiger and moose, use eagle
+
+commit 4c45924c74efa37b9f45db8e37c851eaa3865ead
+Author: Kent Larsson <kent.larsson@gmail.com>
+Date:   Mon Dec 1 10:24:18 2025 +0100
+:...skipping...
+commit bd2042cef943bad89e8a013016b4272580cfa756 (HEAD -> main)
+Author: Kent Larsson <kent.larsson@gmail.com>
+Date:   Mon Dec 1 10:33:42 2025 +0100
+
+    Revert "fix: remove broken tiger and moose, use eagle"
+    
+    This reverts commit c172cb374a20995b8738e5b9ad99de2cb5bd1996.
+
+commit c172cb374a20995b8738e5b9ad99de2cb5bd1996
+Author: Kent Larsson <kent.larsson@gmail.com>
+Date:   Mon Dec 1 10:27:42 2025 +0100
+
+    fix: remove broken tiger and moose, use eagle
+
+commit 4c45924c74efa37b9f45db8e37c851eaa3865ead
+Author: Kent Larsson <kent.larsson@gmail.com>
+Date:   Mon Dec 1 10:24:18 2025 +0100
+
+    feat: add tiger to animal list
+ ESESCOB
+commit 76e4e38103e13957a6fb1ffbcc89e39905a89a75
+Author: Kent Larsson <kent.larsson@gmail.com>
+Date:   Mon Dec 1 10:23:20 2025 +0100
+ ESESCOB
+    feat: add more animals
+ ESESCOB
+commit c5f9f677b7b0f986d0808356530f49dca6d2bfcc
+Author: Kent Larsson <kent.larsson@gmail.com>
+Date:   Mon Dec 1 10:02:06 2025 +0100
+ ESESCOB
+    chore: add initial animals file
+ ESESCOB
+ ESESCOB
+>$ lgi$ git rebase -i HEAD�~4
+hint: Waiting for your editor to close the file... 
+ Date: Mon Dec 1 10:27:42 2025 +0100
+ 1 file changed, 1 insertion(+), 2 deletions(-)
+Successfully rebased and updated refs/heads/main.
+$ $ git log
+commit 1874282946443e0a401f9d53ec05a7e6686a179c (HEAD -> main)
+Author: Kent Larsson <kent.larsson@gmail.com>
+Date:   Mon Dec 1 10:33:42 2025 +0100
+
+    Revert "fix: remove broken tiger and moose, use eagle"
+    
+    This reverts commit c172cb374a20995b8738e5b9ad99de2cb5bd1996.
+
+commit 3cb661f1233369ceb7bc4ad1a73ad6720a792f6e
+Author: Kent Larsson <kent.larsson@gmail.com>
+Date:   Mon Dec 1 10:27:42 2025 +0100
+
+    fix: remove broken tiger and moose, use power eagle
+
+commit 4c45924c74efa37b9f45db8e37c851eaa3865ead
+Author: Kent Larsson <kent.larsson@gmail.com>
+Date:   Mon Dec 1 10:24:18 2025 +0100
+
+>$ $ git push
+fatal: No configured push destination.
+Either specify the URL from the command-line or configure a remote repository using
+
+    git remote add <name> <url>
+
+and then push using the remote name
+
+    git push <name>
+
+$ $ git push -f # force, men nedan är bättre
+fatal: No configured push destination.
+Either specify the URL from the command-line or configure a remote repository using
+
+    git remote add <name> <url>
+
+and then push using the remote name
+
+    git push <name>
+
+$ git push --force-with-leas
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+fatal: No configured push destination.
+Either specify the URL from the command-line or configure a remote repository using
+
+    git remote add <name> <url>
+
+and then push using the remote name
+
+    git push <name>
+
+$ $ pwd
+/shared/kent/Documents/nackademin/projektmetodiker/pr-live/DEVOPS25/lektion01/git/ex2
+$ cd ..
+DEVOPS25/lektion01/git
+$ DEVOPS25/lektion01/git
+$ ls
+ex1  ex2
+DEVOPS25/lektion01/git
+$ cp -r ex2/ ex
+3
+
+DEVOPS25/lektion01/git
+$ cd ex
+3/
+$ $ ls
+djur.txt
+$ branch
+
+
+git branch
+* main
+>$ git checkout -b uppercase
+Switched to a new branch 'uppercase'
+$ $ codex
+
+╭────────────────────────────────────────────────────────╮
+│ >_ OpenAI Codex (v0.63.0)                              │
+│                                                        │
+│ model:     gpt-5.1-codex-max   /model to change        │
+│ directory: /shared/kent/Documents/nackademin/…/git/ex3 │
+╰────────────────────────────────────────────────────────╯
+
+  To get started, describe a task or try one of these commands:
+
+  /init - create an AGENTS.md file with instructions for Codex
+  /status - show current session configuration
+  /approvals - choose what Codex can do without approval
+  /model - choose what model and reasoning effort to use
+  /review - review any changes and find issuescommitmychanges,useconventionalcommits
+
+
+› commit my changes, use conventional commits
+Summarize recent commits · ? for shortcuts•Working(0s • esc to interrupt) › Summarize recent commits 100% context left · ? for shortcutsWWo•Wor•Work•WorkiWorkin•Working•Working1•WorkingWorking•orking•rking•king•ingngg2WWo•Wor•Work•WorkiWorkin•Working•Working3Working•Working•orking•rking•king•ingngg4Checking git status before commit(4s • esc to interrupt)CChChe•Runninggitstatus--short•Checking git status before commit(4s • esc to interrupt) › Summarize recent commits 100% context left · ? for shortcutsMM
+
+• Ran git status --short
+  └ (no output)•Checking git status before commit(4s • esc to interrupt) › Summarize recent commits 100% context left · ? for shortcutsCheckiCheckinCheckingChecking •Checking ghecking giecking git•cking git king git s•ing git stng git stag git stat• git statugit status•it status t status b status be5•status beftatus befoatus befor•tus beforeus before •s before c before co•before comefore commfore commi•ore commitre commite commit commitcommitommitmmitmititt6CChChforchnges (6s • esc to interrupt)CChCheChecCheck•Runninggitstatus•Checking for changes(6s • esc to interrupt) › Summarize recent commits 100% context left · ? for shortcutsMM
+
+• Ran git status
+  └ On branch uppercase
+    nothing to commit, working tree clean•Checking for changes(6s • esc to interrupt) › Summarize recent commits 100% context left · ? for shortcuts•CheckinChecking•Checking Checking f•hecking foecking for•cking for •king for cing for ch7•ng for chag for chan• for changfor change•or changesr changes• changeschanges•hangesangesngesgesess8CChCheChecCheckConfirming no changes made (8s• esc to inerrupt)•Confirmi
+
+─ Worked for 8s ────────────────────────────────────────────────────────────────────ConfirminConfirming•onfirming •nfirming nfirming noirming no •rming no cming no ch•ing no chang no chan9•g no chang no change•no changeso changes  changes m•changes mahanges mad
+
+• No commit created: the working tree is clean in uppercase. If you have untracked
+  or staged changes elsewhere, point me to them and I’ll commit with a conventional
+  message.• › Summarize recent commits 100% context left · ? for shortcutsaddfirstMM
+
+
+› add first
+Summarize recent commits · ? for shortcuts•Working(0s • esc to interrupt) › Summarize recent commits 100% context left · ? for shortcuts•kinging•ngg1WWo•Wor•WorkWorki•Workin•Checking repository status and files(1s • esc to interrupt)epository pository s•ository stsitory sta•itory stattory statuory status•ry status y status a status an•status andtatus and 2•atus and ftus and fius and fil•s and file and filesand files•Exploring  └ Listls•Checking repository status and files(2s • esc to interrupt) › Summarize recent commits 100% context left · ? for shortcuts•ednd filesd files filesfilesileslesessCChChe3ChecCheckCheckiCheckinCheckingChecking Checking r•hecking reecking repcking repo•king reposing reposing reposit•g reposito repositorfile content for requiremnts (3s• esc to interrupt)•ile contenle content•e content  content fcontent fo•ontent forntent for tent for r•ent for rent for reqt for requ•Exploring  └ ListlsReaddjur.txt•Checking file content for requirements(3s • esc to interrupt) › Summarize recent commits 100% context left · ? for shortcuts• for requi•edfor requir4•or requirer requirem requireme•requiremenequirementquirementsuirementsirementsrementsementsmentsentsntstssCChChe5ChecCheckCheckiCheckinCheckingChecking Checking f•hecking fiecking filcking file•king file ing file cng file co•g file con file contfile conte•ile contenle contente content • content fcontent fo•ontent forntent for tent for r•ent for rent for reqt for requ• for requifor requir6or require•r requirem requiremerequiremen•equirementquirementsuirementsirementsrementsementsmentsentsntstssCChChe7ChecCheckCheckiCheckinCheckingChecking Checking fhecking fi•ecking filcking fileking file •ing file cng file co•g file con file contfile conte•ile contenle content•e content  content fcontent fo•ontent forntent for tent for r•ent for rent for reqt for requ•onsidering meaning of "add first" (7s • escto interrupt)MMMM
+
+• Explored
+  └ List ls
+    Read djur.txt
+
+─ Worked for 7s ────────────────────────────────────────────────────────────────────•Considering meaning of "add first"(7s • esc to interrupt) › Summarize recent commits 100% context left · ? for shortcuts of "add fof "add fi8•f "add fir "add firs•"add firstadd first"dd first"d first" first"first"irst"rst"st"t"MM
+
+• I don’t see any pending changes. What should “add first” be? Do you want me to add
+  a new file named first, add the word “first” to djur.txt, or something else? › Summarize recent commits 100% context left · ? for shortcutsuseex3/
+
+
+› use ex3/
+Summarize recent commits · ? for shortcuts•Working(0s • esc to interrupt) › Summarize recent commits 100% context left · ? for shortcutsWWo•Wor•Work•WorkiWorkin1•Working•WorkingWorking•Working•orking•rking•king•ingngg2WWo•Wor•Work•WorkiWorkin3•Working•WorkingWorking•Checking directory contents and repository structure(3s • esc to interrupt)ts an repo• and reposand reposi•nd repositd reposito repoitory•epository pository sository st•sitory stritorystruc•Exploring  └ Listls-la•Checking directory contents and repository structure(3s • esc to interrupt) › Summarize recent commits 100% context left · ? for shortcuts•edry structuy structur structurestructuretructreucturecturetureurere4CChCheChecCheckCeckinCheckingChecking Checking dheckig dircking direking direc•ing directng directog dirctory•directory irectory ccking diectory c (4s • esc to interrupt)•cking direking direc5•ing directng directo•g director directorydirectory •irectory crectory co•ectory con•Exploring  └ Listls-laListls-la•Checking directory contents(5s • esc to interrupt) › Summarize recent commits 100% context left · ? for shortcuts•edctory cont•tory conteory contenry content•y contents contents•contentsontentsntentstentsentsntstss6CChCheChecCheckCheckiCheckinChecking•Checking Checking d•hecking diecking dir•cking direking direc•ing direct7ng directo•g director directorydirectory •irectory crectory co•ectory conctory conttory conte•ory conten•ry contenty contents• contentscontentsontentsntentstentsentsntstss8CChCheChecCheckCheckiCheckin•CheckingChecking Checking d•hecking diecking dir•cking direking direc9•ing directng directog director• directorydirectory •irectory crectory co•ectory conctory cont•tory conteory conten•ry contenty contents contents•contentsontentsntentstentsentsInterpreting ambiguous user commands (9s• esc to interrupt)andsndsdss10s • esc to interupt)IMM
+
+• Explored
+  └ List ls -la
+    List ls -la•Runninggitlog--oneline-5•Interpreting ambiguous user commands(10s • esc to interrupt) › Summarize recent commits 100% context left · ? for shortcutsMM
+
+• Ran git log --oneline -5
+  └ 1874282 Revert "fix: remove broken tiger and moose, use eagle"
+    3cb661f fix: remove broken tiger and moose, use power eagle
+    4c45924 feat: add tiger to animal list
+    76e4e38 feat: add more animals
+    c5f9f67 chore: add initial animals file•Interpreting ambiguous user commands(10s • esc to interrupt) › Summarize recent commits 100% context left · ? for shortcutsIntInteInterInterpInterprInterpreInterpretInterpreti•nterpretinterpreting•erpreting rpreting apreting am•reting ambeting ambiting ambig1•ing ambigung ambiguog ambiguou• ambiguousambiguous mbiguous u•biguous usiguous use•guous useruous user •ous user cus user cos user com• user commuser commaser comman•er commandr commands commandscommandsommandsmmandsmandsandsndsdss2IInIntInteInterInterpInterprInterpreInterpretInterpreti•nterpretinterpretingerpreting •rpreting apreting am•reting ambeting ambiChecking branch namingand status (12s • esc tointerrupt)g branch n3• branch nabranch nam•ranch namianch naminnch naming•ch naming h naming a• naming annaming andaming and •ming and sing and stng and sta•Runninggitbranch-a•Checking branch naming and status(13s • esc to interrupt) › Summarize recent commits 100% context left · ? for shortcutsMM
+
+• Ran git branch -a
+  └   main
+    * uppercase•Checking branch naming and status(13s • esc to interrupt) › Summarize recent commits 100% context left · ? for shortcuts and statu•and statusnd statusd status statusstatustatusatustususs4CChCheChecCheckCheckiCheckinCheckingChecking Checking b•hecking br•ecking bracking branking branc•ing branchng branch g branch n5• branch nabranch nam•ranch namianch naminnch naming•ch naming h naming a naming an•naming andaming and •ming and sing and st•ng and stag and stat and statu•and statusnd statusd status statusstatustatusatustususs6CChCheChecCheckCheckiCheckinCheckingChecking •Checking bhecking brecking bra•cking branking branc•ing branchng branch g branch n7• branch nabranch nam•ranch namianch naminnch naming•ch naming h naming a naming an•naming andaming and •ming and sing and st•ng and stag and stat and statu•and statusnd statusd status statusstatustatusatustususs8CChCheChecCheckCheckiCheckinCheckingChecking •Checking bhecking brecking bra•cking branking branc•ing branchng branch g branch n9• branch nabranch nam•ranch namianch naminnch naming•ch naming h naming a naming an•naming andaming and •ming and sing and st•ng and stag and stat and statu•and statusnd statusd status statusstatustatusatustususs20CChCheChecCheckCheckiCheckinCheckingChecking •Checking bhecking brecking bra•cking branking branc•ing branchng branch g branch n1• branch nabranch namranch nami•anch naminnch naming•ch naming h naming a• naming annaming andaming and •ming and sing and st•ng and stag and stat and statu•and statusnd statusd status statusstatustatusatustususs2CChCheChecCheckCheckiCheckinCheckingChecking •Checking bhecking brecking bra•cking branking branc•ing branchng branch g branch n3• branch nabranch namranch nami•anch naminnch naming•ch naming h naming a• naming annaming andaming and •ming and sing and st•ng and stag and stat and statu•and statusnd statusd status statusstatustatusatustususs4CChCheChecCheckCheckiCheckinCheckingChecking •Checking bhecking brecking bra•cking branking branc•ing branchng branch g branch n5• branch nabranch namranch nami•anch namin•nch namingch naming h naming a• naming annaming andaming and •ming and sing and st•ng and stag and stat and statu•and statusnd statusd statusonsidering meaning of"ad first" (25s • esc to interupt) first"first"irst"rst"st"t""6CCoConConsConsiConsidConsideConsiderConsideri•Considerinonsideringnsidering •sidering midering me•Exploring  └ Searchrg--files•Considering meaning of "add first"(26s • esc to interrupt) › Summarize recent commits 100% context left · ? for shortcuts•ed•ering meanring meaniing meanin7•ng meaning•g meaning  meaning omeaning of•eaning of aning of "ning of "a•ing of "adng of "addg of "add • of "add fof "add fi•f "add fir "add firs"add first•add first"dd first"d first" first"first"irst"rst"st"t""8Searching for rg alternative (28s • escto interrup)SSeSeaSearSearcSearch•Exploring  └ Searchrg--filesSearchfind.-maxdepth2-typef•Searching for rg alternative(28s • esc to interrupt) › Summarize recent commits 100% context left · ? for shortcuts•edSearchiSearchin•SearchingSearching •earching farching forching for•ching for •hing for r9ing for rgng for rg •g for rg a for rg al•for rg altor rg alter rg alter• rg alternrg alterna•g alternat alternati•alternativlternative•ternativeernativernativenativeativetiveivevee30SSeSeaSearSearcSearchSearchi•SearchinSearchingSearching •earching farching fo•rching forching for hing for r1•ing for rgng for rg •g for rg a for rg alfor rg alt•or rg alte•r rg alter rg alternrg alterna•g alternat alternati•alternativlternative•ternativeernativernativenativeativetiveivevee2SSeSeaSearSearcSearchSearchiSearchin•SearchingSearching •earching farching forching for•ching for •hing for r3ing for rgng for rg •g for rg a for rg al•for rg altor rg alter rg alter• rg alternrg alterna•g alternat alternati•alternativlternative•ternativeernativernativenativeativetiveivevee4SSeSeaSearSearcSearchSearchiSearchin•SearchingSearching •earching farching fo•rching forching for hing for r5•ing for rgng for rg •g for rg a for rg al•for rg altor rg alter rg alter• rg altern•rg alternag alternat alternati•alternativlternative•ternativeernativernativenativeativetiveivevee6SSeSeaSearSearcSearchSearchiSearchin•SearchingSearching •earching farching forching for•ching for hing for r7•ing for rgng for rg •g for rg a for rg al•for rg altor rg alte•r rg alterInterpreting ambiguous user instructions (37s • esc to interrupt)us user ins user ins• user instuser instrser instru•er instrucr instruct instructi•instructionstructionstructionstructionsructionsuctionsctionstionsionsonsnss8MM
+
+• Explored
+  └ Search rg --files
+    Search find . -maxdepth 2 -type f•Runninggitdiffmain..uppercase•Interpreting ambiguous user instructions(38s • esc to interrupt) › Summarize recent commits 100% context left · ? for shortcutsMM
+
+• Ran git diff main..uppercase
+  └ (no output)•Interpreting ambiguous user instructions(38s • esc to interrupt) › Summarize recent commits 100% context left · ? for shortcutsIInIntInteInterInterpInterprInterpreInterpretInterpretinterpretin•terpretingerpreting rpreting a•preting amreting ambeting ambi•ting ambiging ambigung ambiguo9•g ambiguou ambiguousambiguous •mbiguous ubiguous usiguous use•guous useruous user ous user i•us user ins user ins• user instuser instrser instru•er instrucr instruct instructi•instructionstructionstructionstructionsructionsuctionsctionstionsionsonsnss40IInIntInteInterInterpInterprInterpreInterpretInterpretinterpretinvestigating instructions across directories (40 • esc o interrupt)•stigating tigating iigating in•gating insating inst•ting instring instrung intruct• instructi1instructionstruction•structionstructions ructions a•uctions acctions acrtions acro•ions acrosons aross s across d• across di•Exploring  └ Searchfind/shared/kent/Documents/nackademin/projektmetodiker/pr-live/DEVOPS25/lektion01-maxdepth2-typef•Investigating instructions across directories(41s • esc to interrupt) › Summarize recent commits 100% context left · ? for shortcuts•edacross dir•cross direross irectss directo•s director directoridirectorieirectoriesrectoriesectoriesctoriestoriesoriesriesess2IInInvInveInvesInvestInvestiInvestigInvetigatnvestigativestigatinestigating•stigating tigating i•igating ingating insating inst•ting instring istrucg instruct3• instructiinstructionstruction•structionstructions ructions a•uctions acction acroions acros•ons acrossns across •s across d across diacross dir•cross direross direcoss direct•ss directos dirctoridirectorieirectoriesrectoriesectoriesctoriestoriesoriesriesieses4IInInvInveInvesInvestInvestiInvestigInvestigaInvestigatnvestgatinestigating•stigating tigating iigating in•gating insating instting instr•ing instrung instruc•g instruct5 instuctionstruction•structionstructions ructions a•uctions acctions acrtions acro•ions acrosons acrossns across •s acrss diacross dircross dire•ross direcoss direct•ss directos director directoridirectorieirectriesectoriesctoriestoriesoriesriesiesess6IInvInveInvesInvestInvestiInvestigInvestigaInvestigatnvestigativestigatin•estigatingstigaing iigating in•gating insating instting instr•ing instrung instrucg instruct7• instructiinstructio•nstructionstrucions ructions a•uctions acctions acrtions acro•ions acrosons acrossns across •s across d across diacros dire•Considering instructions in recordings (47s • esc tointerrupt)in recordin recordin• recordingrecordingsecordingscordingsordingsrdingsdingsingsngsgss8•Exploring  └ Searchfind/shared/kent/Documents/nackademin/projektmetodiker/pr-live/DEVOPS25/lektion01-maxdepth2-typefRead100817.txt•Considering instructions in recordings(48s • esc to interrupt) › Summarize recent commits 100% context left · ? for shortcuts•edCCoConConsConsiConsidConsideConsiderConsideriConsiderinonsidering•nsidering sidering iidering in•dering insering instring instr•ing instru•ng instruc9g instruct instructi•instructionstructionstructions•tructions ructions iuctions in•ctions in tions in rions in re•ons in recns in reco•s in recor in recordin recordi•n recordin recordingrecordingsecordingscordingsordingsrdingsdingsingsngsgss50CCoConConsConsiConsidConsideConsiderConsideriConsiderinonsidering•nsidering sidering iidering in•dering insering inst•ring instring instrung instruc1•g instruct instructiinstructio•nstructionstructionstructions •ructions iuctions inctions in •tions in rions in re•ons in recns in reco•s in recor in recordin recordi•n recordin recordingrecordingsecordingscordingsordingsrdingsdingsingsngsgss2CCoConConsConsiConsidConsidePreparing clarifying question (52s • esc tointerrupt)MMMMM
+
+• Explored
+  └ Search find /shared/kent/Documents/nackademin/projektmetodiker/pr-live/DEVOPS25/
+           lektion01 -maxdepth 2 -type f
+    Read 100817.txt
+
+─ Worked for 52s ───────────────────────────────────────────────────────────────────•Preparing clarifying question(52s • esc to interrupt) › Summarize recent commits 100% context left · ? for shortcutsPrepariPreparin•PreparingPreparing reparing c•eparing clparing cla•aring clarring clari3•ing clarifng clarifyg clarifyi• clarifyinclarifying•larifying arifying q•rifying quifying quefying ques•ying questing questi•ng questiog question• question
+
+• I’m in ex3/, but there are no pending changes. What exactly should I add—e.g.,
+  insert the word “first” (or another animal) into djur.txt, create a new file
+  named first, or something else? Once I know the change, I’ll commit it with a
+  conventional message.question › Summarize recent commits 100% context left · ? for shortcuts
+To continue this session, run codex resume 019ad952-adca-7731-a8e1-8619365aaf72
+$ ^C
+$ $ ls
+djur.txt
+$ git pwd
+/shared/kent/Documents/nackademin/projektmetodiker/pr-live/DEVOPS25/lektion01/git/ex3
+$ git add .
+$ git commit
+On branch uppercase
+nothing to commit, working tree clean
+$ $ git log
+commit 1874282946443e0a401f9d53ec05a7e6686a179c (HEAD -> uppercase, main)
+Author: Kent Larsson <kent.larsson@gmail.com>
+Date:   Mon Dec 1 10:33:42 2025 +0100
+
+    Revert "fix: remove broken tiger and moose, use eagle"
+    
+    This reverts commit c172cb374a20995b8738e5b9ad99de2cb5bd1996.
+
+commit 3cb661f1233369ceb7bc4ad1a73ad6720a792f6e
+Author: Kent Larsson <kent.larsson@gmail.com>
+Date:   Mon Dec 1 10:27:42 2025 +0100
+
+    fix: remove broken tiger and moose, use power eagle
+
+commit 4c45924c74efa37b9f45db8e37c851eaa3865ead
+Author: Kent Larsson <kent.larsson@gmail.com>
+Date:   Mon Dec 1 10:24:18 2025 +0100
+
+>$ 
+pwd
+/shared/kent/Documents/nackademin/projektmetodiker/pr-live/DEVOPS25/lektion01/git/ex3
+$ $ codex djh
+
+
+
+code djur.txt 
+$ pwd
+/shared/kent/Documents/nackademin/projektmetodiker/pr-live/DEVOPS25/lektion01/git/ex3
+$ git sdd .
+git: 'dd' is not a git command. See 'git --help'.
+
+The most similar command is
+	add
+$ 
+git add. .
+$ $ git commit
+[uppercase 934a4ba] feat: uppercase moosex3/.git/COMMIT_EDITMSG [ Writing... ] [ Wrote 8 lines ]etodiker/pr-live/DEVOPS25/lektion01/git/ex3/.git/COMMIT_EDITMSG        
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+$ git log
+commit 934a4ba8f836de2b26be89ac65a78d9485befada (HEAD -> uppercase)
+Author: Kent Larsson <kent.larsson@gmail.com>
+Date:   Mon Dec 1 10:53:51 2025 +0100
+
+    feat: uppercase moose
+
+commit 1874282946443e0a401f9d53ec05a7e6686a179c (main)
+Author: Kent Larsson <kent.larsson@gmail.com>
+Date:   Mon Dec 1 10:33:42 2025 +0100
+
+    Revert "fix: remove broken tiger and moose, use eagle"
+    
+    This reverts commit c172cb374a20995b8738e5b9ad99de2cb5bd1996.
+
+commit 3cb661f1233369ceb7bc4ad1a73ad6720a792f6e
+Author: Kent Larsson <kent.larsson@gmail.com>
+Date:   Mon Dec 1 10:27:42 2025 +0100
+
+    fix: remove broken tiger and moose, use power eagle
+
+commit 4c45924c74efa37b9f45db8e37c851eaa3865ead
+...skipping...
+commit 934a4ba8f836de2b26be89ac65a78d9485befada (HEAD -> uppercase)
+Author: Kent Larsson <kent.larsson@gmail.com>
+Date:   Mon Dec 1 10:53:51 2025 +0100
+
+    feat: uppercase moose
+
+commit 1874282946443e0a401f9d53ec05a7e6686a179c (main)
+Author: Kent Larsson <kent.larsson@gmail.com>
+Date:   Mon Dec 1 10:33:42 2025 +0100
+
+    Revert "fix: remove broken tiger and moose, use eagle"
+    
+    This reverts commit c172cb374a20995b8738e5b9ad99de2cb5bd1996.
+
+commit 3cb661f1233369ceb7bc4ad1a73ad6720a792f6e
+Author: Kent Larsson <kent.larsson@gmail.com>
+Date:   Mon Dec 1 10:27:42 2025 +0100
+
+    fix: remove broken tiger and moose, use power eagle
+
+commit 4c45924c74efa37b9f45db8e37c851eaa3865ead
+>$ $ git branch
+  main
+* uppercase
+>$ git checkpoiout mai-maibmai maimaimaimai
+Switched to branch 'main'
+$ cat djur.txt 
+apa
+groda
+huggorm
+brunbjörn
+älg
+räv
+varg
+lodjur
+tiger
+$ nano djur.txt 
+>$ git add , Write: djur.txt [ Writing... ] [ Wrote 9 lines ]                        Y Yes                          
+fatal: pathspec ',' did not match any files
+$ git add .
+$ $ git commit
+Aborting commit due to empty commit message.sage aborts the commit.ineead 8 lines ]...n/projektmetodiker/pr-live/DEVOPS25/lektion01/git/ex3/.git/COMMIT_EDITMSG        
+$ git checkout -b nicer
+Switched to a new branch 'nicer'
+$ git log
+commit 1874282946443e0a401f9d53ec05a7e6686a179c (HEAD -> nicer, main)
+Author: Kent Larsson <kent.larsson@gmail.com>
+Date:   Mon Dec 1 10:33:42 2025 +0100
+
+    Revert "fix: remove broken tiger and moose, use eagle"
+    
+    This reverts commit c172cb374a20995b8738e5b9ad99de2cb5bd1996.
+
+commit 3cb661f1233369ceb7bc4ad1a73ad6720a792f6e
+Author: Kent Larsson <kent.larsson@gmail.com>
+Date:   Mon Dec 1 10:27:42 2025 +0100
+
+    fix: remove broken tiger and moose, use power eagle
+
+commit 4c45924c74efa37b9f45db8e37c851eaa3865ead
+Author: Kent Larsson <kent.larsson@gmail.com>
+Date:   Mon Dec 1 10:24:18 2025 +0100
+
+    feat: add tiger to animal list
+
+commit 76e4e38103e13957a6fb1ffbcc89e39905a89a75
+>$ l$ git status
+On branch nicer
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	modified:   djur.txt
+
+$ git commit
+[nicer 0894966] feat: nicer animal spelling/.git/COMMIT_EDITMSG [ Writing... ] [ Wrote 8 lines ]etodiker/pr-live/DEVOPS25/lektion01/git/ex3/.git/COMMIT_EDITMSG        
+ 1 file changed, 4 insertions(+), 4 deletions(-)
+$ $ git ls
+git: 'ls' is not a git command. See 'git --help'.
+
+The most similar command is
+	hs
+$ iggit status$ git status
+On branch nicer
+nothing to commit, working tree clean
+$ git log
+commit 0894966498f5997fb685af02b7bdc9ba06f8bb47 (HEAD -> nicer)
+Author: Kent Larsson <kent.larsson@gmail.com>
+Date:   Mon Dec 1 10:55:24 2025 +0100
+
+    feat: nicer animal spelling
+
+commit 1874282946443e0a401f9d53ec05a7e6686a179c (main)
+Author: Kent Larsson <kent.larsson@gmail.com>
+Date:   Mon Dec 1 10:33:42 2025 +0100
+
+    Revert "fix: remove broken tiger and moose, use eagle"
+    
+    This reverts commit c172cb374a20995b8738e5b9ad99de2cb5bd1996.
+
+commit 3cb661f1233369ceb7bc4ad1a73ad6720a792f6e
+Author: Kent Larsson <kent.larsson@gmail.com>
+Date:   Mon Dec 1 10:27:42 2025 +0100
+
+    fix: remove broken tiger and moose, use power eagle
+
+commit 4c45924c74efa37b9f45db8e37c851eaa3865ead
+>$ $ git hs
+* 0894966 40 seconds ago Kent Larsson (HEAD -> nicer) feat: nicer animal spelling
+* 1874282 11 minutes ago Kent Larsson (main) Revert "fix: remove broken tiger and moose, use eagle"
+* 3cb661f 11 minutes ago Kent Larsson fix: remove broken tiger and moose, use power eagle
+* 4c45924 32 minutes ago Kent Larsson feat: add tiger to animal list
+* 76e4e38 33 minutes ago Kent Larsson feat: add more animals
+* c5f9f67 54 minutes ago Kent Larsson chore: add initial animals file
+>$ git pbranch
+  main
+* nicer
+  uppercase
+>$ git checkout main
+Switched to branch 'main'
+$ git merge nicer
+Updating 1874282..0894966
+Fast-forward
+ djur.txt | 8 ++++----
+ 1 file changed, 4 insertions(+), 4 deletions(-)
+$ $ git log
+commit 0894966498f5997fb685af02b7bdc9ba06f8bb47 (HEAD -> main, nicer)
+Author: Kent Larsson <kent.larsson@gmail.com>
+Date:   Mon Dec 1 10:55:24 2025 +0100
+
+    feat: nicer animal spelling
+
+commit 1874282946443e0a401f9d53ec05a7e6686a179c
+Author: Kent Larsson <kent.larsson@gmail.com>
+Date:   Mon Dec 1 10:33:42 2025 +0100
+
+    Revert "fix: remove broken tiger and moose, use eagle"
+    
+    This reverts commit c172cb374a20995b8738e5b9ad99de2cb5bd1996.
+
+commit 3cb661f1233369ceb7bc4ad1a73ad6720a792f6e
+Author: Kent Larsson <kent.larsson@gmail.com>
+Date:   Mon Dec 1 10:27:42 2025 +0100
+
+    fix: remove broken tiger and moose, use power eagle
+
+commit 4c45924c74efa37b9f45db8e37c851eaa3865ead
+>$ $ git rbranch
+* main
+  nicer
+  uppercase
+>$ git merge up
+percase
+Auto-merging djur.txt
+CONFLICT (content): Merge conflict in djur.txt
+Automatic merge failed; fix conflicts and then commit the result.
+$ $ git log
+commit 0894966498f5997fb685af02b7bdc9ba06f8bb47 (HEAD -> main, nicer)
+Author: Kent Larsson <kent.larsson@gmail.com>
+Date:   Mon Dec 1 10:55:24 2025 +0100
+
+    feat: nicer animal spelling
+
+commit 1874282946443e0a401f9d53ec05a7e6686a179c
+Author: Kent Larsson <kent.larsson@gmail.com>
+Date:   Mon Dec 1 10:33:42 2025 +0100
+
+    Revert "fix: remove broken tiger and moose, use eagle"
+    
+    This reverts commit c172cb374a20995b8738e5b9ad99de2cb5bd1996.
+
+commit 3cb661f1233369ceb7bc4ad1a73ad6720a792f6e
+Author: Kent Larsson <kent.larsson@gmail.com>
+Date:   Mon Dec 1 10:27:42 2025 +0100
+
+    fix: remove broken tiger and moose, use power eagle
+
+commit 4c45924c74efa37b9f45db8e37c851eaa3865ead
+>$ $ git status
+On branch main
+You have unmerged paths.
+  (fix conflicts and run "git commit")
+  (use "git merge --abort" to abort the merge)
+
+Unmerged paths:
+  (use "git add <file>..." to mark resolution)
+	both modified:   djur.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ $ node djur.txt 
+/shared/kent/Documents/nackademin/projektmetodiker/pr-live/DEVOPS25/lektion01/git/ex3/djur.txt:3
+<<<<<<< HEAD
+  ^^
+
+SyntaxError: Unexpected token '<<'
+    at wrapSafe (node:internal/modules/cjs/loader:1692:18)
+    at Module._compile (node:internal/modules/cjs/loader:1735:20)
+    at Object..js (node:internal/modules/cjs/loader:1893:10)
+    at Module.load (node:internal/modules/cjs/loader:1481:32)
+    at Module._load (node:internal/modules/cjs/loader:1300:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:245:24)
+    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)
+    at node:internal/main/run_main_module:33:47
+
+Node.js v24.11.1
+$ node djur.txtano$ nano djur.txt 
+*v gg==GLGpercasele  ^\ Replace    ^U Paste^J Justify    ^/ Go To Line   djur.txt                                    
+
+
+
+
+
+
+>$ git statusWrite: djur.txt [ Writing... ] [ Wrote 9 lines ]                        Y Yes
+On branch main
+You have unmerged paths.
+  (fix conflicts and run "git commit")
+  (use "git merge --abort" to abort the merge)
+
+Unmerged paths:
+  (use "git add <file>..." to mark resolution)
+	both modified:   djur.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git add .
+$ git commit
+[main 465c767] Merge branch 'uppercase' merging. aborts the commit.ineead 20 lines ]...n/projektmetodiker/pr-live/DEVOPS25/lektion01/git/ex3/.git/COMMIT_EDITMSG        
+$ 
+$ git log
+commit 465c767d2a895dd168c0f215c61c81c13ec6af28 (HEAD -> main)
+Merge: 0894966 934a4ba
+Author: Kent Larsson <kent.larsson@gmail.com>
+Date:   Mon Dec 1 11:01:34 2025 +0100
+
+    Merge branch 'uppercase'
+
+commit 0894966498f5997fb685af02b7bdc9ba06f8bb47 (nicer)
+Author: Kent Larsson <kent.larsson@gmail.com>
+Date:   Mon Dec 1 10:55:24 2025 +0100
+
+    feat: nicer animal spelling
+
+commit 934a4ba8f836de2b26be89ac65a78d9485befada (uppercase)
+Author: Kent Larsson <kent.larsson@gmail.com>
+Date:   Mon Dec 1 10:53:51 2025 +0100
+
+    feat: uppercase moose
+
+commit 1874282946443e0a401f9d53ec05a7e6686a179c
+Author: Kent Larsson <kent.larsson@gmail.com>
+:commit 465c767d2a895dd168c0f215c61c81c13ec6af28 (HEAD -> main)
+Merge: 0894966 934a4ba
+Author: Kent Larsson <kent.larsson@gmail.com>
+Date:   Mon Dec 1 11:01:34 2025 +0100
+
+    Merge branch 'uppercase'
+
+commit 0894966498f5997fb685af02b7bdc9ba06f8bb47 (nicer)
+Author: Kent Larsson <kent.larsson@gmail.com>
+Date:   Mon Dec 1 10:55:24 2025 +0100
+
+    feat: nicer animal spelling
+
+commit 934a4ba8f836de2b26be89ac65a78d9485befada (uppercase)
+Author: Kent Larsson <kent.larsson@gmail.com>
+Date:   Mon Dec 1 10:53:51 2025 +0100
+
+    feat: uppercase moose
+
+commit 1874282946443e0a401f9d53ec05a7e6686a179c
+Author: Kent Larsson <kent.larsson@gmail.com>
+>$ $ git status
+On branch main
+nothing to commit, working tree clean
+$ gitz
+bash: gitz: command not found
+$ tgit
+bash: tgit: command not found
+$ $ git log --graph --oneline --all
+
+git log --graph --oneline --all
+
+*   465c767 (HEAD -> main) Merge branch 'uppercase'
+|\  
+| * 934a4ba (uppercase) feat: uppercase moose
+* | 0894966 (nicer) feat: nicer animal spelling
+|/  
+* 1874282 Revert "fix: remove broken tiger and moose, use eagle"
+* 3cb661f fix: remove broken tiger and moose, use power eagle
+* 4c45924 feat: add tiger to animal list
+* 76e4e38 feat: add more animals
+* c5f9f67 chore: add initial animals file
+>$ 
+exit
+
+Script done on 2025-12-01 11:04:07+01:00 [COMMAND_EXIT_CODE="0"]
