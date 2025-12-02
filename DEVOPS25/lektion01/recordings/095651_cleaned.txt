@@ -1,0 +1,83 @@
+Script started on 2025-12-01 09:56:58+01:00 [TERM="xterm-256color" TTY="/dev/pts/4" COLUMNS="51" LINES="14"]
+DEVOPS25/lektion01
+$ DEVOPS25/lektion01
+$ mkdir git
+DEVOPS25/lektion01
+$ cd git/
+DEVOPS25/lektion01/git
+$ DEVOPS25/lektion01/git
+$ ls
+DEVOPS25/lektion01/git
+$ mkdir ex1
+DEVOPS25/lektion01/git
+$ cd ex1/
+DEVOPS25/lektion01/git/ex1
+$ DEVOPS25/lektion01/git/ex1
+$ 
+DEVOPS25/lektion01/git/ex1
+$ 
+DEVOPS25/lektion01/git/ex1
+$ 
+DEVOPS25/lektion01/git/ex1
+$ 
+DEVOPS25/lektion01/git/ex1
+$ DEVOPS25/lektion01/git/ex1
+$ touch djur.txt
+DEVOPS25/lektion01/git/ex1
+$ nano djur.txt 
+>DEVOPS25/lektion01/git/ex1t [ Writing... ] [ Wrote 4 lines ]  M-M Mac FormM-P Prepend ^T Browse
+$ DEVOPS25/lektion01/git/ex1
+$ ls -a
+.  ..  djur.txt
+DEVOPS25/lektion01/git/ex1
+$ git init
+Initialized empty Git repository in /shared/kent/Documents/nackademin/projektmetodiker/pr-live/DEVOPS25/lektion01/git/ex1/.git/
+$ git stautus$ git status
+On branch main
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	djur.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+$ git add djur.txt$ git add dhj
+h
+jur.txt 
+$ git stuatus
+On branch main
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+	new file:   djur.txt
+
+$ $ git commit -m Ã¤Ã'jsijisji
+
+
+[main (root-commit) c5f9f67] chore: add initial animals filee 11 lines ]ormM-P Prepend ^T Browses filelanimals file animals fileanimals file
+ 1 file changed, 4 insertions(+)
+ create mode 100644 djur.txt
+$ cat djur.txt 
+apa
+groda
+huggorm
+
+$ $ git log
+commit c5f9f677b7b0f986d0808356530f49dca6d2bfcc (HEAD -> main)
+Author: Kent Larsson <kent.larsson@gmail.com>
+Date:   Mon Dec 1 10:02:06 2025 +0100
+
+    chore: add initial animals file
+$ $ pwd
+/shared/kent/Documents/nackademin/projektmetodiker/pr-live/DEVOPS25/lektion01/git/ex1
+$ cd ..
+DEVOPS25/lektion01/git
+$ l
+
+
+exit
+
+Script done on 2025-12-01 10:08:04+01:00 [COMMAND_EXIT_CODE="0"]

@@ -1,0 +1,77 @@
+Script started on 2025-12-01 09:56:58+01:00 [TERM="xterm-256color" TTY="/dev/pts/4" COLUMNS="51" LINES="14"]
+[?2004h[94mDEVOPS25/lektion01
+(B[m$ [H[2J[94mDEVOPS25/lektion01
+(B[m$ mkdir git
+[?2004l[?2004h[94mDEVOPS25/lektion01
+(B[m$ cd git/
+[?2004l[?2004h[94mDEVOPS25/lektion01/git
+(B[m$ [H[2J[94mDEVOPS25/lektion01/git
+(B[m$ ls
+[?2004l[?2004h[94mDEVOPS25/lektion01/git
+(B[m$ mkdir ex1
+[?2004l[?2004h[94mDEVOPS25/lektion01/git
+(B[m$ cd ex1/
+[?2004l[?2004h[94mDEVOPS25/lektion01/git/ex1
+(B[m$ [H[2J[94mDEVOPS25/lektion01/git/ex1
+(B[m$ 
+[?2004l[?2004h[94mDEVOPS25/lektion01/git/ex1
+(B[m$ 
+[?2004l[?2004h[94mDEVOPS25/lektion01/git/ex1
+(B[m$ 
+[?2004l[?2004h[94mDEVOPS25/lektion01/git/ex1
+(B[m$ 
+[?2004l[?2004h[94mDEVOPS25/lektion01/git/ex1
+(B[m$ [H[2J[94mDEVOPS25/lektion01/git/ex1
+(B[m$ touch djur.txt
+[?2004l[?2004h[94mDEVOPS25/lektion01/git/ex1
+(B[m$ nano djur.txt 
+[?2004l[?2004h[?1049h[22;0;0t[1;14r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[12;19H(B[0;7m[ Reading... ](B[m[12;18H(B[0;7m[ Read 0 lines ](B[m[H(B[0;7m  GNU nano 7.2          djur.txt                   [1;50H(B[m[13d(B[0;7m^G(B[m Help     (B[0;7m^O(B[m Write Out(B[0;7m^W(B[m Where Is (B[0;7m^K(B[m Cut[14d(B[0;7m^X(B[m Exit     (B[0;7m^R(B[m Read File(B[0;7m^\(B[m Replace  (B[0;7m^U(B[m Paste[2d[?12l[?25h[?25l[1;34H(B[0;7m*[50G(B[m[?12l[?25h[2da[?25l[?12l[?25hp[?25l[?12l[?25ha[?25l[3d[?12l[?25h[?25l[?12l[?25hn[?25l[?12l[?25h[K[?25l[?12l[?25hg[?25l[?12l[?25hr[?25l[?12l[?25ho[?25l[?12l[?25hd[?25l[?12l[?25ha[?25l[4d[?12l[?25h[?25l[?12l[?25hh[?25l[?12l[?25hu[?25l[?12l[?25hg[?25l[?12l[?25hg[?25l[?12l[?25hr[?25l[?12l[?25h [?25l[?12l[?25ho[?25l[12d[K[?12l[?25h[4;6Hr[?25l[?12l[?25hm[?25l[5d[?12l[?25h[?25l[12d(B[0;7mSave modified buffer?                              [13;1H Y(B[m Yes[K[14d(B[0;7m N(B[m No           (B[0;7m^C(B[m Cancel[K[12;23H[?12l[?25h[?25l[13d(B[0;7m^G(B[m Help     (B[0;7mM-D(B[m DOS Form(B[0;7mM-A(B[m Append  (B[0;7mM-B(B[m Backup File[14;1H(B[0;7m^C(B[m Cancel   (B[0;7mM-M(B[m Mac Form(B[0;7mM-P(B[m Prepend (B[0;7m^T(B[m Browse[12d(B[0;7mFile Name to Write: djur.txt(B[m[?12l[?25h[?25l[12;18H[1K (B[0;7m[ Writing... ](B[m[K[1;34H(B[0;7m [50G(B[m[12;18H(B[0;7m[ Wrote 4 lines ](B[m[J[14d[?12l[?25h[14;1H[?1049l[23;0;0t[?1l>[?2004l[?2004h[94mDEVOPS25/lektion01/git/ex1
+(B[m$ [H[2J[94mDEVOPS25/lektion01/git/ex1
+(B[m$ ls -a
+[?2004l.  ..  djur.txt
+[?2004h[94mDEVOPS25/lektion01/git/ex1
+(B[m$ git init
+[?2004lInitialized empty Git repository in /shared/kent/Documents/nackademin/projektmetodiker/pr-live/DEVOPS25/lektion01/git/ex1/.git/
+[?2004h[94m(B[m$ git staut[K[Ktus[H[2J[94m(B[m$ git status
+[?2004lOn branch main
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31mdjur.txt[m
+
+nothing added to commit but untracked files present (use "git add" to track)
+[?2004h[94m(B[m$ git add .[Kdjur.txt [K[K[K[K[K[K[K[K[K[H[2J[94m(B[m$ git add .[Kdhj[K[Kh[Kjur.txt 
+[?2004l[?2004h[94m(B[m$ git stut[K[Katus
+[?2004lOn branch main
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+	[32mnew file:   djur.txt[m
+
+[?2004h[94m(B[m$ [H[2J[94m(B[m$ git commit -m ää[K[K''j's'i'j'i's'j'i'[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K
+[?2004lhint: Waiting for your editor to close the file... [?2004h[?1049h[22;0;0t[1;14r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[12;19H(B[0;7m[ Reading... ](B[m[12;18H(B[0;7m[ Read 11 lines ](B[m[H(B[0;7m...25/lektion01/git/ex1/.git/COMMIT_EDITMSG        [1;51H(B[m[13d(B[0;7m^G(B[m Help     (B[0;7m^O(B[m Write Out(B[0;7m^W(B[m Where Is (B[0;7m^K(B[m Cut[14d(B[0;7m^X(B[m Exit     (B[0;7m^R(B[m Read File(B[0;7m^\(B[m Replace  (B[0;7m^U(B[m Paste[3d[36m# Please enter the commit message for your changes[39m(B[0;7m>[4;1H(B[0m[36m# with '#' will be ignored, and an empty message a[39m(B[0;7m>[5;1H(B[0m[36m#[6d# On branch main[7d#[8d# Initial commit[9d#[10d# Changes to be committed:[11d#[38;5;208m       [36mnew file:   djur.txt[2d[39m(B[m[?12l[?25h[?25l[1;45H(B[0;7m*[51G(B[m[?12l[?25h[2di[?25l[?12l[?25hn[?25l[?12l[?25hi[?25l[?12l[?25ht[?25l[?12l[?25ha[?25l[?12l[?25h [?25l[?12l[?25hi[?25l[?12l[?25ha[?25l[?12l[?25hl[?25l[?12l[?25h [?25l[?12l[?25hc[?25l[?12l[?25ho[?25l[?12l[?25hm[?25l[?12l[?25hm[?25l[?12l[?25hi[?25l[?12l[?25ht[?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[12d[K[?12l[?25h[2;11H [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h[?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h[K[?25l[?12l[?25hc[?25l[?12l[?25hh[?25l[?12l[?25ho[?25l[?12l[?25hr[?25l[?12l[?25he[?25l[?12l[?25h>[?25l[?12l[?25h [?25l[?12l[?25h:[?25l[?12l[?25h [?25l[?12l[?25ha[?25l[?12l[?25hd[?25l[?12l[?25hd[?25l[?12l[?25h [?25l[?12l[?25ha[?25l[?12l[?25hn[?25l[?12l[?25hi[?25l[?12l[?25hm[?25l[?12l[?25ha[?25l[?12l[?25hl[?25l[?12l[?25hs[?25l[?12l[?25h [?25l[?12l[?25hf[?25l[?12l[?25hi[?25l[?12l[?25hl[?25l[?12l[?25he[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25hianimals file[2;13H[?25l[?12l[?25hnanimals file[2;14H[?25l[?12l[?25hianimals file[2;15H[?25l[?12l[?25htanimals file[2;16H[?25l[?12l[?25hianimals file[2;17H[?25l[?12l[?25haanimals file[2;18H[?25l[?12l[?25hlanimals file[2;19H[?25l[?12l[?25h animals file[2;20H[?25l[?12l[?25ha[?25l[?12l[?25hn[?25l[?12l[?25hi[?25l[?12l[?25hm[?25l[?12l[?25ha[?25l[?12l[?25hl[?25l[?12l[?25hs[?25l[?12l[?25h [?25l[?12l[?25hf[?25l[?12l[?25hi[?25l[?12l[?25hl[?25l[?12l[?25he[?25l[?12l[?25h[3d[?25l[?12l[?25h[2;32H[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[1P[?25l[?12l[?25hAdd initial animals file[2;9H[?25l[?12l[?25h[?25l[?12l[?25hA[?25l[?12l[?25h[1P[?25l[?12l[?25hadd initial animals file[2;9H[?25l[?12l[?25hd[?25l[?12l[?25hd[?25l[?12l[?25h [?25l[?12l[?25hi[?25l[?12l[?25hn[?25l[?12l[?25hi[?25l[?12l[?25ht[?25l[?12l[?25hi[?25l[?12l[?25ha[?25l[?12l[?25hl[?25l[?12l[?25h [?25l[?12l[?25ha[?25l[?12l[?25hn[?25l[?12l[?25hi[?25l[?12l[?25hm[?25l[?12l[?25ha[?25l[?12l[?25hl[?25l[?12l[?25hs[?25l[?12l[?25h [?25l[?12l[?25hf[?25l[?12l[?25hi[?25l[?12l[?25hl[?25l[?12l[?25he[?25l[?12l[?25h[3d[?25l[?12l[?25h[2;32H[?25l[12d(B[0;7mSave modified buffer?                              [13;1H Y(B[m Yes[K[14d(B[0;7m N(B[m No           (B[0;7m^C(B[m Cancel[K[12;23H[?12l[?25h[?25l[13d(B[0;7m^G(B[m Help     (B[0;7mM-D(B[m DOS Form(B[0;7mM-A(B[m Append  (B[0;7mM-B(B[m Backup File[14;1H(B[0;7m^C(B[m Cancel   (B[0;7mM-M(B[m Mac Form(B[0;7mM-P(B[m Prepend (B[0;7m^T(B[m Browse[12d(B[0;7mFile Name to Write:<git/COMMIT_EDITMSG(B[m[?12l[?25h[?25l[12;18H[1K (B[0;7m[ Writing... ](B[m[K[1;45H(B[0;7m [51G(B[m[12;17H(B[0;7m[ Wrote 11 lines ](B[m[J[14d[?12l[?25h[14;1H[?1049l[23;0;0t[?1l>[?2004l[K[main (root-commit) c5f9f67] chore: add initial animals file
+ 1 file changed, 4 insertions(+)
+ create mode 100644 djur.txt
+[?2004h[94m(B[m$ cat djur.txt 
+[?2004lapa
+groda
+huggorm
+
+[?2004h[94m(B[m$ [H[2J[94m(B[m$ git log
+[?2004l[?1h=[33mcommit c5f9f677b7b0f986d0808356530f49dca6d2bfcc[m[33m ([m[1;36mHE[m [33m[m[33m[m[1;36mAD -> [m[1;32mmain[m[33m)[m[m
+Author: Kent Larsson <kent.larsson@gmail.com>[m
+Date:   Mon Dec 1 10:02:06 2025 +0100[m
+[m
+    chore: add initial animals file[m
+[K[?1l>[?2004h[94m(B[m$ [K[94m(B[m$ [K[94m(B[m$ [K[94m(B[m$ [K[94m(B[m$ [K[94m(B[m$ [K[94m(B[m$ [H[2J[94m(B[m$ pwd
+[?2004l/shared/kent/Documents/nackademin/projektmetodiker/pr-live/DEVOPS25/lektion01/git/ex1
+[?2004h[94m(B[m$ cd ..
+[?2004l[?2004h[94mDEVOPS25/lektion01/git
+(B[m$ ll[K[Kl[K[?2004l
+exit
+
+Script done on 2025-12-01 10:08:04+01:00 [COMMAND_EXIT_CODE="0"]

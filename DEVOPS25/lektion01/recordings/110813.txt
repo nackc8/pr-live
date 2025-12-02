@@ -1,0 +1,24 @@
+Script started on 2025-12-01 11:08:13+01:00 [TERM="xterm-256color" TTY="/dev/pts/3" COLUMNS="66" LINES="22"]
+[?2004h[94mDEVOPS25/lektion01
+(B[m$ 
+[?2004l[?2004h[94mDEVOPS25/lektion01
+(B[m$ ls
+[?2004lgit  recordings
+[?2004h[94mDEVOPS25/lektion01
+(B[m$ cd git/ex
+ex1/ ex2/ ex3/ 
+[94mDEVOPS25/lektion01
+(B[m$ cd git/ex3/
+[?2004l[?2004h[94m(B[m$ [H[2J[94m(B[m$ git branch
+[?2004l[?1h=* [32mmain[m[m
+  nicer[m[m
+  uppercase[m[m
+[K[?1l>[?2004h[94m(B[m$ git branch -d uppercase
+[?2004lDeleted branch uppercase (was 934a4ba).
+[?2004h[94m(B[m$ git branch -d uppercase[K
+[?2004l[?1h=* [32mmain[m[m
+  nicer[m[m
+[K[?1l>[?2004h[94m(B[m$ git branch -d uppercase[K[C[C[K[K[94m(B[m$ [K[94m(B[m$ [K[94m(B[m$ [?2004l
+exit
+
+Script done on 2025-12-01 12:19:22+01:00 [COMMAND_EXIT_CODE="0"]
